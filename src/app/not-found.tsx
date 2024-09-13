@@ -1,7 +1,12 @@
+import Link from "next/link"
 
 const NotFound = () => {
   return (
-    <div>NotFound</div>
+    <div>
+      <div>NotFound</div>
+      <Link href={'/'}>Pagina Inicial</Link>
+    </div>
+
   )
 }
 
